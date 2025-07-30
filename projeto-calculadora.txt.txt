@@ -1,2 +1,4 @@
 Aprendendo a trabalhar com o Git
 Aula de Desenvolvimento de Sistemas
+
+Hoje é dia 29/07/2025
