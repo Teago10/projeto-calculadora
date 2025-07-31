@@ -6,5 +6,10 @@ namespace calculadora
         {
             InitializeComponent();
         }
+
+        private void txtNumero2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
