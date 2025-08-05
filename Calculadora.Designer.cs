@@ -76,16 +76,17 @@
             // 
             // btnSomar
             // 
-            btnSomar.Location = new Point(40, 112);
+            btnSomar.Location = new Point(14, 112);
             btnSomar.Name = "btnSomar";
             btnSomar.Size = new Size(75, 23);
             btnSomar.TabIndex = 4;
             btnSomar.Text = "Somar";
             btnSomar.UseVisualStyleBackColor = true;
+            btnSomar.Click += btnSomar_Click;
             // 
             // btnSubtrair
             // 
-            btnSubtrair.Location = new Point(120, 112);
+            btnSubtrair.Location = new Point(94, 112);
             btnSubtrair.Name = "btnSubtrair";
             btnSubtrair.Size = new Size(75, 23);
             btnSubtrair.TabIndex = 5;
@@ -94,7 +95,7 @@
             // 
             // btnDividir
             // 
-            btnDividir.Location = new Point(201, 112);
+            btnDividir.Location = new Point(175, 112);
             btnDividir.Name = "btnDividir";
             btnDividir.Size = new Size(75, 23);
             btnDividir.TabIndex = 6;
@@ -103,7 +104,7 @@
             // 
             // btnMultiplicar
             // 
-            btnMultiplicar.Location = new Point(282, 112);
+            btnMultiplicar.Location = new Point(256, 112);
             btnMultiplicar.Name = "btnMultiplicar";
             btnMultiplicar.Size = new Size(75, 23);
             btnMultiplicar.TabIndex = 7;
@@ -114,7 +115,7 @@
             // 
             lblResultado.AutoSize = true;
             lblResultado.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblResultado.Location = new Point(296, 32);
+            lblResultado.Location = new Point(293, 28);
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(28, 32);
             lblResultado.TabIndex = 8;
