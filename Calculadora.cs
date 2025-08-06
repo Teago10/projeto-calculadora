@@ -14,8 +14,17 @@ namespace calculadora
 
         private void btnSomar_Click(object sender, EventArgs e)
         {
-
-            double numero1 = Convert.ToDouble(txtNumero1.Text);
+            //Como verificar se um campo textbox esta vazio no c#
+            if (string.IsNullOrWhiteSpace(txtNumero1.Text))
+            {
+                MessageBox.Show("O campo 1 está vazio");
+            }
+            else if (string.IsNullOrWhiteSpace(txtNumero2.Text))
+            {
+                MessageBox.Show("O campo 2 está vazio");
+            }
+                //Soma
+                double numero1 = Convert.ToDouble(txtNumero1.Text);
             double numero2 = Convert.ToDouble(txtNumero2.Text);
 
             //Realiza a soma dos números e exiba o resultado
